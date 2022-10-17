@@ -17,3 +17,17 @@ Outra biblioteca que pode ajudar bastante é a chamada pyunicorn, que é dedicad
 tutorial: 
 
 http://www.pik-potsdam.de/~donges/pyunicorn/tutorials/climate_network_1.html
+
+# Possíveis problemas
+- Instalação pyunicorn
+  - Seguir tutorial aqui: https://github.com/pik-copan/pyunicorn/issues/127
+  - Por favor, tente o seguinte teste:
+    
+    (1) crie um ambiente conda do Python 3.7 vazio;
+    
+    (2) instale os pacotes numpy, scipy, matplotlib e cython usando a ferramenta pip.
+    
+    (3) instale o pacote python-igraph usando o arquivo .whl pré-compilado (disponível aqui https://www.lfd.uci.edu/~gohlke/pythonlibs/#python-igraph)
+    
+    (4) finalmente, instale o pacote pyunicorn usando meu arquivo .whl.
+- Mesmo depois de conseguir instalar não conseguimos usar. Fica dando o seguinte erro ao tentar importar o pacote: No module named 'setup'
